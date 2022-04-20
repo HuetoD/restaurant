@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/HuetoD/restaurant/static/css/main.abe69dc7.css",
+    "main.js": "/HuetoD/restaurant/static/js/main.4ba6ad14.js",
+    "index.html": "/HuetoD/restaurant/index.html",
+    "main.abe69dc7.css.map": "/HuetoD/restaurant/static/css/main.abe69dc7.css.map",
+    "main.4ba6ad14.js.map": "/HuetoD/restaurant/static/js/main.4ba6ad14.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.abe69dc7.css",
+    "static/js/main.4ba6ad14.js"
+  ]
+}
