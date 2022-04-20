@@ -1,0 +1,170 @@
+:root{
+    --font: 'Montserrat', sans-serif;
+    --light: #fff;
+}
+
+.glass{
+    background: rgba( 255, 255, 255, 0.05 );
+    box-shadow: 0 8px 32px 0 rgba( 0, 0, 0, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.1 );
+}
+
+.container{
+    width: 90%;
+    height: 30rem;
+    max-width: 23rem;
+    margin: 5rem auto 0 auto;
+    position: relative;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.img{
+    width: 8rem;
+    filter: drop-shadow(4px 7px 6px #000b);
+}
+
+.form-group{
+    width: 80%;
+    transition:all .3s;
+}
+
+.label{
+    font-size: 1rem;
+    color: white;
+    font-weight: bold;
+    margin-left: 1rem;
+    text-shadow: 3px 6px 4px rgba( 0, 0, 0, 0.37 );
+    display: inline-block;
+    opacity: 1;
+    transform: translateY(-1.9rem);
+    transform-origin:0 0;
+    transition:all .3s;
+}
+
+.label:hover{
+    cursor: text;
+}
+
+.input{
+    height: 2rem;
+    width: 100%;
+    padding: 1.3rem 1rem;
+    font-size: 1rem;
+    color: var(--light);
+}
+
+.input:focus{
+    outline: none;
+    border: 2px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.input:focus + .label, .input:not(:placeholder-shown) + .label{
+    transform: translateY(-4.8rem) scale(0.8);
+    margin-left: 0.8rem;
+}
+
+.input::placeholder{
+    color: transparent
+}
+
+.button{
+    width: 10rem;
+    height: 2.5rem;
+    font-family: var(--font);
+    text-transform: uppercase;
+    text-shadow:3px 6px 4px rgba( 0, 0, 0, 0.37 );
+    color: var(--light);
+}
+
+.button:hover{
+    cursor: pointer;
+    text-shadow:3px 6px 4px rgba( 0, 0, 0, 0.50 );
+}
+
+.button:active{
+    padding-top: 0.3rem;
+    padding-right: 0.3rem;
+}
+
+.links{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links a:last-child{
+    text-align: right;
+}
+
+.box{
+    animation: box 5s ease infinite;
+    position: absolute;
+}
+
+.box1{
+
+    top: -2.5rem;
+    left: 7rem;
+    width: 4.5rem;
+    height: 4.5rem;
+    animation-delay: 0.4s;
+}
+.box2{
+    top: -2.5rem;
+    right: -2.5rem;
+    width: 7rem;
+    height: 7rem;
+    animation-delay: 1.6s;
+}
+.box3{
+    bottom: 10rem;
+    right: -4rem;
+    width: 5rem;
+    height: 5rem;
+    animation-delay: 1s;
+}
+.box4{
+    bottom: -4.5rem;
+    left: 12rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    animation-delay: 0.8s;
+}
+.box5{
+    top: 12rem;
+    left: -6rem;
+    width: 7rem;
+    height: 7rem;
+    animation-delay: 2s;
+}
+
+@keyframes box {
+    0%{
+        transform: translateX(0rem);
+    }
+    50%{
+        transform: translateY(-1.5rem);
+    }
+    100%{
+        transform: translateX(0rem);
+    }
+}
+
+@media (min-width: 768px){
+    .container{
+        width: 90%;
+        height: 33rem;
+        max-width: 25rem;
+        margin: 3rem auto;
+    }
+}
