@@ -8,14 +8,14 @@ class Login extends Component{
             <form className='form'>
                 <img src='./hat.png' alt='img' className='img'></img>
                 <div className='form-group'>
-                    <input id='user' className='input glass' type='text' placeholder='a'></input>
+                    <input autoComplete='off' id='user' className='input glass' type='text' placeholder='a'></input>
                     <label htmlFor='user' className='label'>Usuario</label>
                 </div>
                 <div className='form-group'>
                     <input autoComplete='off' id='password' className='input glass' type='password' placeholder='a'></input>
                     <label htmlFor='password' className='label'>Contraseña</label>
                 </div>
-                <input autoComplete='off' className='button glass' type='submit' value='Iniciar sesion'></input>
+                <input className='button glass' type='submit' value='Iniciar sesion'></input>
                 <div className='links'>
                 <a href="#">¿Usuario nuevo? Registrate</a>
                 <a href="#">¿Olvidaste tu contraseña?</a>
