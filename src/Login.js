@@ -12,10 +12,10 @@ class Login extends Component{
                     <label htmlFor='user' className='label'>Usuario</label>
                 </div>
                 <div className='form-group'>
-                    <input id='password' className='input glass' type='password' placeholder='a'></input>
+                    <input autoComplete='off' id='password' className='input glass' type='password' placeholder='a'></input>
                     <label htmlFor='password' className='label'>Contraseña</label>
                 </div>
-                <input className='button glass' type='submit' value='Iniciar sesion'></input>
+                <input autoComplete='off' className='button glass' type='submit' value='Iniciar sesion'></input>
                 <div className='links'>
                 <a href="#">¿Usuario nuevo? Registrate</a>
                 <a href="#">¿Olvidaste tu contraseña?</a>
