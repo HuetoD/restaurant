@@ -26,7 +26,7 @@ class Login extends Component{
             <div className='box box3 glass'></div>
             <div className='box box4 glass'></div>
             <div className='box box5 glass'></div>
-      </div>
+        </div>
         )
     }
 }
