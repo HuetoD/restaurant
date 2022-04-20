@@ -168,6 +168,15 @@
     }
 }
 
+@media (max-height: 667px){
+    html{
+        height: 100vh;
+    }
+    .contpos{
+        margin-top: 1.7rem;
+    }
+}
+
 @media (min-width: 768px){
     .contpos{
         width: 90%;
