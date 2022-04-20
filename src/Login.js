@@ -6,7 +6,7 @@ class Login extends Component{
         return(
         <div className='container glass'>
             <form className='form'>
-                <img src='./hat.png' alt='img' className='img'></img>
+                <img src='./img/menu.png' alt='logo' className='img'></img>
                 <div className='form-group'>
                     <input autoComplete='off' id='user' className='input glass' type='text' placeholder='a'></input>
                     <label htmlFor='user' className='label'>Usuario</label>
