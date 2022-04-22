@@ -27,7 +27,7 @@ export default function Register() {
                     </div>
                     <input className='button glass' type='submit' value='Registrarse'></input>
                     <div className='links already'>
-                        <Link to='/login'>Ya tengo una cuenta</Link>
+                        <Link to='/restaurant/login'>Ya tengo una cuenta</Link>
                     </div>
                 </form>
             </div>

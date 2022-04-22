@@ -23,7 +23,7 @@ export default function Login(props){
                         </div>
                         <input className='button glass' type='submit' value='Iniciar sesion'></input>
                         <div className='links'>
-                            <Link to='/register'>Usuario Nuevo? Registrarse</Link>
+                            <Link to='/restaurant/register'>Usuario Nuevo? Registrarse</Link>
                             <a href="#">Continuar como invitado</a>
                         </div>
                     </form>
