@@ -27,12 +27,12 @@ export default function Login(props){
                             <a href="#">Continuar como invitado</a>
                         </div>
                     </form>
-                    <div className='box box1 glass'></div>
+                </div>
+                <div className='box box1 glass'></div>
                 <div className='box box2 glass'></div>
                 <div className='box box3 glass'></div>
                 <div className='box box4 glass'></div>
                 <div className='box box5 glass'></div>
-                </div>
             </div>
         )
     }
