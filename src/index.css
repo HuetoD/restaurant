@@ -25,6 +25,7 @@ html {
   overflow: hidden;
   height: 93vh;
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
 }

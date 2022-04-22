@@ -1,10 +1,11 @@
-import React, { Component } from 'react'
-import logo from './img/hat.png'
+import React from 'react'
+import {Link} from "react-router-dom";
+import logo from '../img/hat.png'
 import './Login.css';
 
-class Login extends Component {
-    render() {
-        return (
+
+export default function Login(props){
+    return(     
             <div className='contpos'>
                 <div className='container glass'>
                     <form className='form'>
@@ -22,19 +23,16 @@ class Login extends Component {
                         </div>
                         <input className='button glass' type='submit' value='Iniciar sesion'></input>
                         <div className='links'>
-                            <a href="#">¿Usuario nuevo? Registrate</a>
+                            <Link to='/register'>Usuario Nuevo? Registrarse</Link>
                             <a href="#">Continuar como invitado</a>
                         </div>
                     </form>
-                </div>
-                <div className='box box1 glass'></div>
+                    <div className='box box1 glass'></div>
                 <div className='box box2 glass'></div>
                 <div className='box box3 glass'></div>
                 <div className='box box4 glass'></div>
                 <div className='box box5 glass'></div>
+                </div>
             </div>
         )
     }
-}
-
-export default Login;

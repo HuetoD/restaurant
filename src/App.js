@@ -1,14 +1,21 @@
-import React, {Component}from 'react'
+import React from 'react'
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
 import './App.css';
-import Login from './Login';
-import Register from './Register';
+import Login from './components/Login';
+import Register from './components/Register';
 
-class App extends Component{
-  render(){
-    return(
-      <Login></Login>
-    )
-  }
+export default function App() {
+  return (
+      <Router>
+        <Routes>
+          <Route path='/' element={<Login/>}></Route>
+          <Route path='/login' element={<Login/>}></Route>
+          <Route path='/register' element={<Register/>}></Route>
+        </Routes>
+      </Router>
+  );
 }
-
-export default App;
