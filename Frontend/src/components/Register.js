@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from "react-router-dom";
 import logo from '../img/hat.png'
-import './Login.css';
+import './FormsLR.css';
 
 export default function Register() {
     return (

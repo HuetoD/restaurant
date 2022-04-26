@@ -18,6 +18,8 @@ body {
   position: relative;
   margin: 0;
   height: 100%;
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: whitesmoke;
 }
 
 html {
